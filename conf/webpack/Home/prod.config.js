@@ -3,10 +3,9 @@ const common = require('./common.config');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 
-module.exports = merge( common, {
+module.exports = merge.smart( common, {
     mode: 'production',
-    plugins: [],
     optimization: {
-        minimize: false
+        minimize: true
     }
 } );

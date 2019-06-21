@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Provider } from 'react-redux';
 import { store, history } from './Store';
 import PublicRoutes from './routes';
+import './App.scss';
 
 export default class App extends Component {
     render() {
