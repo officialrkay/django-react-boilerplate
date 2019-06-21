@@ -1,0 +1,17 @@
+env/
+.idea/
+node_modules
+*.pyc
+npm-debug.log
+yarn.lock
+tmp/
+.cache
+**/settings_compiled.py
+!assets/bundles
+assets/bundles/**
+!assets/bundles/.gitignore
+!.gitignore
+webpack-stats-*.json
+logs/errors.log
+Pipfile.lock
+package-lock.json

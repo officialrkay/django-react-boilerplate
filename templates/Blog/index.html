@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load render_bundle from webpack_loader %}
+
+{% block stylesheets %}
+{% render_bundle 'main' 'css' 'BLOG' %}
+{% endblock stylesheets %}
+
+{% block body %}
+    <div id="page"></div>
+{% endblock body %}
+
+{% block javascript %}
+{% render_bundle 'main' 'js' 'BLOG' %}
+{% endblock javascript %}

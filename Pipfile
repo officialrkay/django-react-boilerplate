@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+djongo = "*"
+django-extensions = "*"
+django-clear-cache = "*"
+django-split-settings = "*"
+python-memcached = "*"
+django-debug-toolbar = "*"
+django-webpack-loader = "*"
+django-cors-headers = "*"
+
+[requires]
+python_version = "3.7"
