@@ -1,6 +1,6 @@
 from .env import PRODUCTION
 
-SECRET_KEY = 'H5LfeZ(2R%t+oq\'BvN*-<^B2(Nd$3>'
+SECRET_KEY = '{{secret_key}}'
 
 ALLOWED_HOSTS = [ '{{project_name}}.com' ]
 
